@@ -19,7 +19,5 @@ const ticketId = readLineSync.question('What is the Ticket ID? ',
     limitMessage: 'Please enter a ticket ID (e.g. DCPPD-123)'
   })
 
-console.log('====', ticketId);
-
 // Create a new branch
 shell.exec(`git checkout -b ${ticketId}`)
